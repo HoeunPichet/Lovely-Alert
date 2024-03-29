@@ -1,0 +1,22 @@
+{
+  "name": "lovely-alert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoeunPichet/Lovely-Alert.git"
+  },
+  "author": "Zire Frizzy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HoeunPichet/Lovely-Alert/issues"
+  },
+  "homepage": "https://github.com/HoeunPichet/Lovely-Alert#readme",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  }
+}
