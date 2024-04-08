@@ -6,4 +6,3 @@ export class Testing {
         this.init();
     }
 }
-window.Testing = Testing;
