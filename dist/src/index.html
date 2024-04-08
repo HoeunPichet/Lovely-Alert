@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css">
+    <title>Document</title>
+</head>
+<body onload="testing()">
+    <h1 class="text-red-500" onclick="testing()">Hello World!</h1>
+    <!-- <script>var exports = {};</script> -->
+    <script type="module" src="./lib/index.js"></script>
+    <script>
+        function testing () {
+            const test = new Testing();
+            console.log(test);
+        }
+
+    </script>
+</body>
+</html>
