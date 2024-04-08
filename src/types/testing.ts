@@ -7,5 +7,3 @@ export class Testing {
         console.log("Hello")
     }
 }
-
-(window as any).Testing = Testing;

@@ -4,6 +4,7 @@ import { Testing } from '../types/testing.js';
 //         Testing  : typeof Testing,
 //     }
 // }
+window.Testing = Testing;
 export default {
     Testing
 };

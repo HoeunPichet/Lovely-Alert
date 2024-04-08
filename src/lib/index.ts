@@ -6,6 +6,8 @@ import { Testing } from '../types/testing.js';
 //     }
 // }
 
+(window as any).Testing = Testing;
+
 export default {
     Testing
 }
