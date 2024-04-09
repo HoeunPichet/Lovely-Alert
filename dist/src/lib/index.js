@@ -1,10 +1,5 @@
-import { Testing } from '../types/testing.js';
-// declare global {
-//     interface Window {
-//         Testing  : typeof Testing,
-//     }
-// }
-window.Testing = Testing;
+import { LovelyAlert } from '../types/alert.js';
+window.LovelyAlert = LovelyAlert;
 export default {
-    Testing
+    LovelyAlert
 };

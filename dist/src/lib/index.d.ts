@@ -1,5 +1,5 @@
-import { Testing } from '../types/testing.js';
+import { LovelyAlert } from '../types/alert.js';
 declare const _default: {
-    Testing: typeof Testing;
+    LovelyAlert: typeof LovelyAlert;
 };
 export default _default;
