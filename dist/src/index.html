@@ -6,13 +6,24 @@
     <link rel="stylesheet" href="./app.css">
     <title>Document</title>
 </head>
-<body>
-    <h1 class="text-red-500" onclick="testing()">Hello World!</h1>
+<body class="bg-slate-800">
+    <main class="w-full h-full mt-10">
+        <section class="flex justify-center w-4/5 gap-3 mx-auto">
+            <button type="button" onclick="lovelyAlert('top-left')" class="px-4 py-2 text-base font-medium border-2 border-white rounded-lg bg-sky-600 hover:bg-sky-700 text-sky-50">Top-Left</button>
+            <button type="button" onclick="lovelyAlert('bottom-left')" class="px-4 py-2 text-base font-medium border-2 border-white rounded-lg bg-sky-600 hover:bg-sky-700 text-sky-50">Bottom-Left</button>
+            <button type="button" onclick="lovelyAlert('top-right')" class="px-4 py-2 text-base font-medium border-2 border-white rounded-lg bg-sky-600 hover:bg-sky-700 text-sky-50">Top-Right</button>
+            <button type="button" onclick="lovelyAlert('bottom-right')" class="px-4 py-2 text-base font-medium border-2 border-white rounded-lg bg-sky-600 hover:bg-sky-700 text-sky-50">Bottom-Right</button>
+        </section>
+
+    </main>
+
     <script type="module" src="./lib/index.js"></script>
     <script>
-        function testing () {
-            const test = new Testing();
-            console.log(test);
+        function lovelyAlert (pos) {
+            const option = {
+                position: pos,
+            };
+            new LovelyAlert();
         }
 
     </script>
