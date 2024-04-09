@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/HoeunPichet/Lovely-Alert/issues"
   },
-  "homepage": "https://github.com/HoeunPichet/Lovely-Alert/dist",
+  "homepage": "https://github.com/HoeunPichet/Lovely-Alert",
   "devDependencies": {
     "browserify": "latest",
     "@types/browserify": "latest",
