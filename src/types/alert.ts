@@ -182,7 +182,7 @@ export class LovelyAlert implements IAlert<void, string> {
                 element.classList.add("left-5");
             }, 50);
         } else if (position === "bottom-right") {
-            element.classList.add("bottom-5", "right-5");
+            element.classList.add("bottom-5", "-right-full");
             setTimeout(() => {
                 element.classList.remove("-right-full");
                 element.classList.add("right-5");
