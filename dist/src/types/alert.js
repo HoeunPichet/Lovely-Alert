@@ -56,7 +56,7 @@ export class LovelyAlert {
                 element.classList.add("hidden");
             }, 500);
         }, option.fadeOut);
-        this.setTranslateY();
+        // this.setTranslateY();
         const finalPopup = this.addText(element);
         document.body.appendChild(finalPopup);
     };
@@ -127,7 +127,7 @@ export class LovelyAlert {
             }, 50);
         }
         else if (position === "bottom-right") {
-            element.classList.add("bottom-5", "right-5");
+            element.classList.add("bottom-5", "-right-full");
             setTimeout(() => {
                 element.classList.remove("-right-full");
                 element.classList.add("right-5");
