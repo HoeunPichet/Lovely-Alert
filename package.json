@@ -2,8 +2,8 @@
   "name": "lovely-alert",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/lib/index.js",
-  "types": "./dist/lib/index.d.ts",
+  "main": "./dist/src/lib/index.js",
+  "types": "./dist/src/lib/index.d.ts",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/HoeunPichet/Lovely-Alert/issues"
   },
-  "homepage": "https://github.com/HoeunPichet/Lovely-Alert#readme",
+  "homepage": "https://github.com/HoeunPichet/Lovely-Alert/",
   "devDependencies": {
     "browserify": "latest",
     "@types/browserify": "latest",
