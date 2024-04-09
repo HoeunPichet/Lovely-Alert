@@ -2,15 +2,15 @@
   "name": "lovely-alert",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/src/index.js",
-  "types": "./dist/src/index.d.ts",
+  "main": "./dist/lib/index.js",
+  "types": "./dist/lib/index.d.ts",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy:file": "copyfiles -u 1 ./src/index.html ./dist/src",
-    "style:build": "npx tailwindcss -i ./src/app.css -o ./dist/src/app.css",
-    "style:watch": "npx tailwindcss -i ./src/app.css -o ./dist/src/app.css --watch",
-    "serve": "npm run copy:file && live-server ./dist/src",
+    "copy:file": "copyfiles -u 1 ./src/index.html ./dist",
+    "style:build": "npx tailwindcss -i ./src/app.css -o ./dist/app.css",
+    "style:watch": "npx tailwindcss -i ./src/app.css -o ./dist/app.css --watch",
+    "serve": "npm run copy:file && live-server ./dist",
     "build": "rimraf ./dist && tsc && npm run copy:file && npm run style:build"
   },
   "repository": {
